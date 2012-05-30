@@ -26,11 +26,11 @@
     </div>
     
     <div id="projects" class="layers">
-       <a data-control="layer" href="#building">UNHCR Offices</a>
+       <a data-control="layer" href="#office">UNHCR Offices</a>
        <a data-control="layer" href="#construction">Main Relief Activities</a>
     </div>
     <div id="crime" class="layers">
-       <a data-control="layer" href="#auto">People of Concern's location'</a>
+       <a data-control="layer" href="#location">People of Concern's location'</a>
        <a data-control="layer" href="#crime">Population Flow</a>
        <a data-control="layer" href="#robbery">Clashes</a>
        <a data-control="layer" href="#theft">Entry Point</a>
@@ -56,11 +56,11 @@
                 </div>
                 <div>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAa0lEQVQIHWNkaPjPpPhitcn/f4xZDP8ZXjD8/tLBIvhsNe9/BqZ1jAwM0gyMDL8ZWHhYmLj/fmIGCzCAwH/mf8wM6kzizH8////PMBEsxvD/HdPf/5MY/wNFGMNWM0tzfhdgZeL7e39+wAcAdhYlGm+mTIMAAAAASUVORK5CYII=" style="margin-bottom: 2px;">
-                    <label><a href="http://data.dc.gov/Main_DataCatalog.aspx?id=5">Construction project</a></label>
+                    <label><a href="http://data.dc.gov/Main_DataCatalog.aspx?id=5">Office & Intervention</a></label>
                 </div>
                 <div>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAV0lEQVQIHWP8//8/AxgwMjIyQDmM/52D4xkYmGYzMDIwAwX7GfasLgEKhn4GCvBAlDP8Y3h/j4MJKPAXKsAAVPmP4ezZP0wM/xkigIIfgfR3BgbGcpC5AExlIK8M2/cpAAAAAElFTkSuQmCC" style="margin-bottom: 2px;">
-                    <label><a href="http://data.dc.gov/Main_DataCatalog.aspx?id=3">Crime incident</a></label>
+                    <label><a href="http://data.dc.gov/Main_DataCatalog.aspx?id=3">Event & incident</a></label>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
         // Make a new map in the #map element
         var main = Map('map', {
             // Specify the MapBox API url
-            api: 'http://a.tiles.mapbox.com/v3/mapbox.mapbox-light,mapbox.dc-property-values.jsonp',
+            api: 'http://a.tiles.mapbox.com/v3/unhcr.map-l42qapj1.jsonp',
             center: {
                 lat: 15,      // Intial center point and zoom level.
                 lon: 2,      // To find coordinates and zoom levels
@@ -123,7 +123,9 @@
              },
             robbery: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-robbery.jsonp' },
             theft: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-theft.jsonp' },
-            auto: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-auto.jsonp' }
+            auto: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-auto.jsonp' },
+            office: { api: 'http://a.tiles.mapbox.com/v3/unhcr.unhcr-offices.jsonp' },
+            location: { api: 'http://a.tiles.mapbox.com/v3/unhcr.people-of-concern-location.jsonp' }
          });
                  
     </script>
