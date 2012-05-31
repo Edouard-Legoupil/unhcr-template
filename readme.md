@@ -1,3 +1,5 @@
+the site can be viewd at http://edouard-legoupil.github.com/unhcr-template/
+
 # Data Exploration
 
 This template demonstrates a map site for browsing layers of TileMill maps on a custom MapBox map. It's designed to make it easy to get started and should be hacked up at will for your project.
