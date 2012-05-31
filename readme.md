@@ -2,25 +2,16 @@ the site can be viewd at http://edouard-legoupil.github.com/unhcr-template/
 
 # Data Exploration
 
-This template demonstrates a map site for browsing layers of TileMill maps on a custom MapBox map. It's designed to make it easy to get started and should be hacked up at will for your project.
+This template demonstrates a map site for browsing an emergency map.
 
-This map shows you how to make a web site to showcase a custom MapBox map you design, and TileMill maps you make with your own data.
-
-To make your custom base map, [sign up for MapBox](http://mapbox.com/plans/) and [create a map](http://mapbox.com/hosting/creating/).
-
-To learn about making [TileMill](/tilemill) maps with your own data, check out the [TileMill documentation](http://mapbox.com/tilemill/docs/). The maps in this template use data from the [DC Data Portal](http://data.dc.gov/).
+This site is build around [Map Site templates](http://mapbox.com/map-sites) and [TileMill documentation](http://mapbox.com/tilemill/docs/). The maps in this template use data from the [DC Data Portal](http://data.dc.gov/).
 
 The TileMill projects for those maps are included in the `tilemill` directory of this template. Copy them to [TileMill's project directory](http://mapbox.com/tilemill/docs/manual/files-directories/) to use them.
 
 
-## About Map Site Templates
-
-[Map Site templates](http://mapbox.com/map-sites) from MapBox are a way to jumpstart building a map-based web feature. The map-site templates bundles common html and css formatting with reusable javascript components. 
+## Using this template
 
 To build a project based on this template, fork this repository, edit the html content and css, and alter the configuration script.
-
-
-## Using this template
 
 Edit the content by adjusting, removing, or adding to `index.html`. This is the main markup document with the content and layout for the map-site.
 
