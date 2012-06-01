@@ -1,4 +1,7 @@
-the site can be viewd at http://edouard-legoupil.github.com/unhcr-template/
+Emergency data visualisation
+===================================
+
+The site is browsable at at http://edouard-legoupil.github.com/unhcr-template/
 
 # Data Exploration
 
